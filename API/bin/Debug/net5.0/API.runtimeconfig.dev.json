@@ -1,0 +1,9 @@
+{
+  "runtimeOptions": {
+    "additionalProbingPaths": [
+      "C:\\Users\\eduer\\.dotnet\\store\\|arch|\\|tfm|",
+      "C:\\Users\\eduer\\.nuget\\packages",
+      "A:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+    ]
+  }
+}
