@@ -35,6 +35,23 @@ namespace API.Controllers
             await _context.SaveChangesAsync();
             return user;
         }
+
+         [HttpPost("login")]
+        public async Task<ActionResult<AppUser>> Login(LoginDTO loginDTO){
+            var user = await _context.Users.SingleOrDefaultAsync(users => users.UserName == loginDTO.Username.ToLower());
+            if(user == null) return Unauthorized("Contraseña o nombre de usuario incorrecto");
+
+            using var hmac = new HMACSHA512(user.PasswordSalt);
+            var computeHash = hmac.ComputeHash(System.Text.Encoding.UTF8.GetBytes(loginDTO.Password));
+
+            for(int i = 0;  i < computeHash.Length; i++){
+                
+                if(computeHash[i] != user.PasswordHash[i]) return Unauthorized("Contraseñna o nombre de usuario incorrecto");
+            }
+
+            return user;
+        }
+
         private async Task<bool> UserExists(string username)
         {
             return await _context.Users.AnyAsync(variable => variable.UserName == username.ToLower());
