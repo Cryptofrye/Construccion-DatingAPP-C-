@@ -1,5 +1,8 @@
 # Proyecto de C# en clase de construcción con Entity Framework
-
+->Integrantes:
+* Santiago Cardona Arboleda
+* Lesly Alejandra Puerta Gil
+* Edier David Martinez Espejo
 Vscode:
 ![alt text](https://i.ibb.co/xCZR9SS/Code-Dating-App.png)
 -------------------------------------------------------------------------
