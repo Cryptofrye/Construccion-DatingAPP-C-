@@ -55,3 +55,10 @@ A:\WorkSpace\DatingApp\API\bin\Debug\net5.0\runtimes\win-x64\native\e_sqlite3.dl
 A:\WorkSpace\DatingApp\API\bin\Debug\net5.0\runtimes\win-x86\native\e_sqlite3.dll
 A:\WorkSpace\DatingApp\API\bin\Debug\net5.0\Humanizer.dll
 A:\WorkSpace\DatingApp\API\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Design.dll
+A:\WorkSpace\DatingApp\API\bin\Debug\net5.0\Microsoft.IdentityModel.JsonWebTokens.dll
+A:\WorkSpace\DatingApp\API\bin\Debug\net5.0\Microsoft.IdentityModel.Logging.dll
+A:\WorkSpace\DatingApp\API\bin\Debug\net5.0\Microsoft.IdentityModel.Tokens.dll
+A:\WorkSpace\DatingApp\API\bin\Debug\net5.0\System.IdentityModel.Tokens.Jwt.dll
+A:\WorkSpace\DatingApp\API\bin\Debug\net5.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+A:\WorkSpace\DatingApp\API\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.dll
+A:\WorkSpace\DatingApp\API\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll

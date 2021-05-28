@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "a:\\WorkSpace\\DatingApp\\API\\API.csproj": {}
+    "A:\\WorkSpace\\DatingApp\\API\\API.csproj": {}
   },
   "projects": {
-    "a:\\WorkSpace\\DatingApp\\API\\API.csproj": {
+    "A:\\WorkSpace\\DatingApp\\API\\API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "a:\\WorkSpace\\DatingApp\\API\\API.csproj",
+        "projectUniqueName": "A:\\WorkSpace\\DatingApp\\API\\API.csproj",
         "projectName": "API",
-        "projectPath": "a:\\WorkSpace\\DatingApp\\API\\API.csproj",
+        "projectPath": "A:\\WorkSpace\\DatingApp\\API\\API.csproj",
         "packagesPath": "C:\\Users\\eduer\\.nuget\\packages\\",
-        "outputPath": "a:\\WorkSpace\\DatingApp\\API\\obj\\",
+        "outputPath": "A:\\WorkSpace\\DatingApp\\API\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "A:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -25,6 +25,7 @@
           "net5.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -43,6 +44,10 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "dependencies": {
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[5.0.6, )"
+            },
             "Microsoft.EntityFrameworkCore.Design": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
@@ -80,7 +85,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.201\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.203\\RuntimeIdentifierGraph.json"
         }
       }
     }
